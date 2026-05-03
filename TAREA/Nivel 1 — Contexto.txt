@@ -1,0 +1,11 @@
+[Usuario] 
+   ↓
+[Frontend (React)]
+   ↓
+[Backend API (Node.js + Express)]
+   ↓
+[Base de Datos (PostgreSQL)]
+
+Servicios externos (opcional):
+- Cloudinary (imágenes)
+- JWT (autenticación)

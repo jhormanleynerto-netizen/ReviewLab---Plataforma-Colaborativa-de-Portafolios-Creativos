@@ -1,0 +1,4 @@
+npm install eslint --save-dev
+npx eslint --init
+Prettier
+npm install prettier --save-dev

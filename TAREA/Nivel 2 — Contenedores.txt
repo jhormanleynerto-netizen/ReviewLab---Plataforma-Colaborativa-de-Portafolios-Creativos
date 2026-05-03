@@ -1,0 +1,16 @@
+Frontend (React)
+- Pages (Login, Dashboard, Proyectos)
+- Components
+- Services (API)
+
+Backend (Node.js + Express)
+- Routes
+- Controllers
+- Middleware (Auth)
+- Models
+
+Database (PostgreSQL)
+- users
+- projects
+- evaluations
+- improvements

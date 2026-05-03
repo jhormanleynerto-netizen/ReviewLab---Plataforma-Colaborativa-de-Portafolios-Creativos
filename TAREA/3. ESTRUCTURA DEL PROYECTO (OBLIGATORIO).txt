@@ -1,0 +1,22 @@
+project-root/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/api.js
+│   │   └── App.js
+│
+├── backend/
+│   ├── src/
+│   │   ├── routes/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── middleware/
+│   │   └── app.js
+│
+├── database/
+│   └── schema.sql
+│
+├── .env
+├── README.md

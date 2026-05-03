@@ -1,0 +1,26 @@
+# ADR 001 - Elección de tecnologías
+
+## Contexto
+Se requiere desarrollar una aplicación web escalable para gestión de proyectos y feedback.
+
+## Decisión
+Se seleccionaron las siguientes tecnologías:
+
+- Frontend: React
+- Backend: Node.js con Express
+- Base de datos: PostgreSQL
+- Arquitectura: Cliente-Servidor con API REST
+
+## Justificación
+
+- React permite crear interfaces dinámicas y reutilizables.
+- Node.js facilita el uso de JavaScript en todo el proyecto.
+- Express simplifica la creación de APIs.
+- PostgreSQL es robusto y soporta relaciones complejas.
+- API REST permite comunicación clara entre frontend y backend.
+
+## Consecuencias
+
+- Escalabilidad del sistema
+- Separación clara de responsabilidades
+- Mayor facilidad de mantenimiento

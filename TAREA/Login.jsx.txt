@@ -1,0 +1,22 @@
+import { useState } from "react";
+import API from "../services/api";
+
+function Login() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleLogin = async () => {
+    const res = await API.post("/login", { email, password });
+    console.log(res.data);
+  };
+
+  return (
+    <div>
+      <input onChange={(e) => setEmail(e.target.value)} />
+      <input onChange={(e) => setPassword(e.target.value)} />
+      <button onClick={handleLogin}>Login</button>
+    </div>
+  );
+}
+
+export default Login;
